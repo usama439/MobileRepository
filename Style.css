@@ -62,8 +62,8 @@ font-size: 25px;
     height: 50px;
 }
 .card{
-width: 327px;
-    height: 596px;
+    width: 327px;
+        height: 596px;
     display: flex;
         padding: 16px;
         flex-direction: column;
