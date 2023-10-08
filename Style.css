@@ -4,26 +4,7 @@
     grid-gap: 20px;
     width: 375px;
     height: 718px;
- margin: 0 auto;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color:rgb(255, 119, 0);
-    padding: 10px;
-    width: 375px;
-    height: 300px;
-}
-
-.another-grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: white;
-    padding: 10px;
-    width: 375px;
-    height: 350px;
+ margin:  auto;
 }
 
 .icons {
@@ -43,13 +24,6 @@
     grid-gap: 20px;
 }
 
-.another-grid-container h2 {
-font-size: 25px;
-}
-
-.another-grid-container p {
-    font-size: 18px;
-    }
 
   
 
@@ -62,7 +36,7 @@ font-size: 25px;
     height: 50px;
 }
 .card{
-width: 327px;
+    width: 327px;
     height: 596px;
     display: flex;
         padding: 16px;
@@ -86,9 +60,10 @@ width: 327px;
         font-size: 32px;
         font-style: normal;
         font-weight: 700;
-        line-height: 44px;
+        line-height: 12px;
         /* 137.5% */
        margin-right: auto;
+   
 }
 /* .circle {
     list-style-type: none;
@@ -104,7 +79,10 @@ width: 327px;
     /* make the star bold */
     /* margin-right: 10px; */
     /* add some space between the star and the text */
-/* } */ */ */
+/* } */ 
+
+
+
 
 
 .descript{
@@ -117,79 +95,45 @@ width: 327px;
         font-weight: 400;
         line-height: 24px;
         /* 160% */display: flex;
-padding: 12px;
-align-items: center;
-gap: 10px;
-}
- .btn{
-    display: flex;
-        padding: 12px;
-        align-items:start;
-        gap: 10px;
-        border-radius: 8px;
-         background-color: #6070FF; 
-             border: 1px solid var(--primary-b-400, #6070FF);
-            color: var(--primary-b-500, #396DF2);
-    
-                text-align: center;
-            background: none;
-                Button /Normal 
-                font-family: Poppins;
-                font-size: 17px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 24px; 
-                 141.176% 
-                letter-spacing: 0.51px;
-                display: flex;
-                display: flex;
-                    padding: 12px;
-                    align-items: center;
-                    gap: 10px;
-} 
 
-ul{
-    list-style: none;
 }
-li{
-    display: inline;
+.btn {
+    display: flex;
+    padding: 12px;
+    align-items: start;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #6070FF;
+    border: 1px solid var(--primary-b-400, #6070FF);
+    color: var(--primary-b-500, #396DF2);
+
+    text-align: center;
+    background: none;
+    Button /Normal font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    141.176% letter-spacing: 0.51px;
+    display: flex;
+    display: flex;
    
 }
-.circle{
- list-style-type: circle;
- margin-left: 5px;
-margin-left: auto;
-}
-.circle1 {
-    /* list-style-type: circle;
-    margin-left: 5px;
-    margin-left: auto;
-    fill: var(--neutrals-n-50, #C1C7D0); */
-    color: var(--neutrals-n-100, #7A869A);
-    
-        /* Caption / 1 - Bolder */
-        font-family: Poppins;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 16px;
-        /* 123.077% */
-}
-.circle2 {
-    /* list-style-type: circle;
-    margin-left: 5px;
-    margin-left: auto;
-    fill: var(--neutrals-n-50, #C1C7D0); */
-color: var(--neutrals-n-100, #7A869A);
 
-    /* Caption / 1 - Bolder */
-    font-family: Poppins;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-    /* 123.077% */
-}
+.ul {
+     list-style-type: none;
+     /* Remove bullets */
+     margin: 0;
+     /* Remove padding */
+     padding: 0;
+ }
+ .li {
+     display: inline-block;
+     /* Make the list items inline */
+     margin-right: 10px;
+   
+ }
+ 
 /* 
 .lang{
     display: inline-flex;
@@ -221,7 +165,6 @@ div {
     border-radius: 8px;
     background: var(--primary-b-50, #EBEBFF);
     color: var(--primary-b-400, #6070FF);
-
     /* Button / Small */
     font-family: Poppins;
     font-size: 12px;
@@ -230,4 +173,7 @@ div {
     line-height: 16px;
     /* 133.333% */
     letter-spacing: 0.36px;
-}
+        
+           
+        }
+   
